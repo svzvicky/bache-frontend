@@ -1,16 +1,7 @@
 <template>
-  <div class="px-20 pb-20">
+<div class="px-20 pb-20">
     <div class="flex justify-center mb-10">
-      <p>Registration</p>
-    </div>
-    <div class="flex flex-col mb-2">
-      <label for="name" class="mb-2">Name</label>
-      <input
-        type="name"
-        id="name"
-        name="name"
-        class="border-2 border-black-100 border-solid rounded"
-      />
+      <p>Login</p>
     </div>
     <div class="flex flex-col mb-2">
       <label for="email" class="mb-2">Email</label>
@@ -34,12 +25,11 @@
       <button
         class="py-2 px-5 shadow-inner bg-yellow-300 rounded hover:bg-yellow-400"
       >
-        Register
+        Login
       </button>
     </div>
   </div>
 </template>
+<script setup>
 
-<script setup></script>
-
-<style></style>
+</script>
